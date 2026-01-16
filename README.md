@@ -26,9 +26,4 @@ Ce projet implémente un système de surveillance intelligent capable de détect
    ```bash
    jupyter notebook detection_tracking.ipynb
    ```
-
-## Utilisation
-Le système parcourt automatiquement les dossiers de caméras définis dans `config.py`, traite les vidéos, et génère un rapport de trajectoire global permettant de voir où un objet a été vu pour la dernière fois avant de quitter le champ de vision du système.
-
-## Zones d'Alerte
-Les zones sont configurables dans `config.py` sous forme de polygones (liste de coordonnées (x, y)). Si le centre d'un objet pénètre dans cette zone, une alerte est affichée sur la vidéo.
+   
